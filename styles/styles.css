@@ -9,9 +9,22 @@
 }
 
 .estudio-web{
-    display: inline-block;
-    margin-left: 215px;
 
+    margin-left: 215px;
+    margin-right: 93px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+
+
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: right;
+    
+    color:  #2196F3;
+    
 }
 
 .menu-nav{

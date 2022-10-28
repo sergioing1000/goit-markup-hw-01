@@ -29,8 +29,115 @@
 
 .menu-nav{
 
-}
+    margin-top: 32px;
+    margin-bottom: 32px;
 
+}
+.enlace-activo{
+    
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: #2196F3;
+
+}
+.portafolio{
+
+    margin-left: 50px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: #212121;
+}
+.contactos{
+
+    margin-left: 50px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: #212121;
+
+}
 .correo-electronico{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 344px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: #2196F3;
+}
+.telefono{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 50px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.titulo{
+
+        height: 600px;
+        width: 1600px;
+        
+        background-color: #2F303A;
+
+        display: flex;
+        flex-direction: row-reverse;
+        
+        display: inline-block;
+
+}
+.texto-titulo{
+
+        margin: 0;
+        position: absolute;
+        
+        height: 120px;
+        width: 696px;
+        left: 448px;
+        top: 280px;
+        border-radius: 50px;
+
+        font-family: Roboto;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        text-align: center;
+
+        color: #FFFFFF;
+
+}
+.boton{
+
+  
+    padding: 350px 670px 200px 669px;
+    
+    display: inline-flex;
 
 }

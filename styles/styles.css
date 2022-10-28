@@ -1,3 +1,23 @@
 .linea-superior{
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    height: 80px ;
+    border-color: blue;
+
+}
+
+.estudio-web{
     display: inline-block;
+    margin-left: 215px;
+
+}
+
+.menu-nav{
+
+}
+
+.correo-electronico{
+
 }

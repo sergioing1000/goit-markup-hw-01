@@ -1,13 +1,6 @@
+
 .encabezado{
-
-    display: flex;
-    flex-direction: row;
-
-}
-.linea-superior{
-    /* display: inline-block; */
-    display: flex;
-    flex-direction: row;
+    
     width: 1600px;
     height: 80px ;
     border-color: blue;
@@ -16,11 +9,14 @@
 
 .estudio-web{
 
-    margin-left: 215px;
-    margin-right: 93px;
-    margin-top: 24px;
-    margin-bottom: 25px;
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
 
+    width: 145px ;
+    height: 31px;
 
     font-family: Raleway;
     font-size: 26px;
@@ -34,14 +30,14 @@
 }
 
 .menu-nav{
-
-    margin-top: 32px;
-    margin-bottom: 32px;
-
+    position: absolute;
+    width: 288px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
 }
 .enlace-activo{
     
-
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -80,9 +76,12 @@
 
 }
 .correo-electronico{
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 344px;
+    
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
 
     font-family: Roboto;
     font-size: 14px;
@@ -94,9 +93,11 @@
     color: #2196F3;
 }
 .telefono{
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 50px;
+    position: absolute;
+    width: 118px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
 
     font-family: Roboto;
     font-size: 14px;
@@ -104,6 +105,10 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     text-align: left;
+}
+.principal{
+    /* display: flex;
+    flex-direction: column; */
 }
 .titulo{
 
@@ -140,10 +145,87 @@
 
 }
 .boton{
-
   
-    padding: 350px 670px 200px 669px;
-    
+    padding: 350px 670px 200px 669px;    
     display: inline-flex;
 
+}
+.tabla-features{
+    position: absolute;
+    width: 1170px;
+    height: 122px;
+    left: 215px;
+    top: 775px;
+}
+
+.table-header{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.table-features-body{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.a-que-nos-dedicamos{
+    position: absolute;
+    width: 1173.16px;
+    height: 425px;
+    left: 215px;
+    top: 991px;
+    
+ 
+}
+.a-que-nos-dedicamos-titulo{
+    
+    margin-left: 404px;
+    margin-right: 397px;
+    width: 371.15px;
+    height: 46.24px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+}
+.nuestro-equipo{
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1510px;
+
+    background-color: #F5F4FA;
+}
+.nuestro-equipo-titulo{
+
+    margin-top: 94px;
+    margin-bottom: 512px;
+    margin-left: 669px;
+    margin-right: 668px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
 }

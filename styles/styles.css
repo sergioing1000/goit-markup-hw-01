@@ -13,16 +13,13 @@
 
 }
 
-.estudio-web{
+.estudio-web1{
 
     position: absolute;
     width: 145px;
     height: 31px;
     left: 215px;
     top: 24px;
-
-    width: 145px ;
-    height: 31px;
 
     font-family: Raleway;
     font-size: 26px;
@@ -148,9 +145,8 @@
 }
 .boton{
   
-    padding: 350px 670px 200px 669px;    
+    margin: 350px 670px 200px 669px;    
     display: inline-flex;
-
 }
 .tabla-features{
     position: absolute;
@@ -348,4 +344,50 @@
 
     color: #757575;
 }
-.base
+.base{
+
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2158px;
+
+    background-color: #2F303A;
+}
+.estudio-web2 {
+
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 60px;
+
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: right;
+
+    color: #2196F3;
+
+}
+.direccion{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+}

@@ -122,6 +122,19 @@
         display: inline-block;
 
 }
+.button {
+        background-color: #2196F3;;
+
+        border: none;
+        color: white;
+        padding: 15px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 350px 650px;
+        cursor: pointer;
+}
 .texto-titulo{
 
         margin: 0;
@@ -178,8 +191,10 @@
     display: inline-block;
     
     position: absolute;
-    width: 1173.16px;
+    /* width: 1173.16px; */
+    width: 1220.16px;
     height: 425px;
+    /* left: 215px; */
     left: 215px;
     top: 991px;
     
@@ -204,16 +219,24 @@
 
     color: #212121;
 }
+.a-que-nos-dedicamos-ulist
+{
+    display: inline-block;
+    list-style-type: none;
+}
 .imagen1{
+    display: inline-block;
     width: 373px;
     height: 323.7px;    
 }
 .imagen2 {
+    display: inline-block;
     margin-left: 23px;
     width: 373px;
     height: 323.7px;    
 }
 .imagen3 {
+    display: inline-block;
     margin-left: 23px;
     width: 373px;
     height: 323.7px;  

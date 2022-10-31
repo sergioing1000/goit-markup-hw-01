@@ -19,7 +19,7 @@
     width: 145px;
     height: 31px;
     left: 215px;
-    top: 24px;
+    top: -10px;
 
     font-family: Raleway;
     font-size: 26px;
@@ -260,13 +260,13 @@
     top: 186px;
 
     background: #FFFFFF;
-    /* material shadow v1 */
-
+    
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
 .equipo2{
+    display: inline-block;
     position: absolute;
     width: 270px;
     height: 368px;
@@ -274,13 +274,13 @@
     top: 186px;
 
     background: #FFFFFF;
-    /* material shadow v1 */
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
 .equipo3{
+    display: inline-block;
     position: absolute;
     width: 270px;
     height: 368px;
@@ -288,12 +288,12 @@
     top: 186px;
 
     background: #FFFFFF;
-    /* material shadow v1 */
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 .equipo4 {
+    display: inline-block;
     position: absolute;
     width: 270px;
     height: 368px;
@@ -301,7 +301,6 @@
     top: 186px;
 
     background: #FFFFFF;
-    /* material shadow v1 */
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -337,11 +336,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
 
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #757575;
 }
 .base{
